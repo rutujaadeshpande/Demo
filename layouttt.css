@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background: url(https://shadiwelcome.com/img/jpg/slide-1.jpg);
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin:15px;
+    padding:20px;
+    overflow: hidden;
+    background-color:transparent;
+
+  }
+  
+  ul .nav-links{
+    float: left;
+
+  }
+  
+  li {
+    float:left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:pink;
+  }
+  li a:active {
+    background-color:rgb(204, 70, 70);
+  }
+.head{
+    align-items: center;
+    font-size: 80px;
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 3px;  
+    background-color: rgb(1, 65, 73);
+    width: max-content; 
+    
+}
+.mySlides{
+    display: none;
+}
+.step1{
+  padding: 20px;
+  background-color: yellow;
+  width: max-content;
+}
+.step{
+  background: rgba(255, 255, 0, 0.644);
+}
+
+
+.step3{
+  background: rgba(255, 255, 0, 0.644);
+}

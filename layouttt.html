@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout main</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="layouttt.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    
+    
+            <nav>
+                <ul class="nav-links"></ul>
+                    <li><a href="layouttt.html" >Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="template.html">Templates</a></li>
+                    
+                    <li><a href="login.php">Logout</a></li>
+                </ul>
+            </nav>
+
+
+            <div class="head">
+                <h1 style="font-size:60px">ONLINE WEDDING INVITATION </h1>
+                <h1 style="font-size:60px"> CARD MAKER</h1>
+            </div>
+           
+
+            <div class="myimg" style="max-width: fit-content; padding-top:40px";>
+                <img class="mySlides w3-animate-top" src="https://www.bollywoodshaadis.com/img-scale/670/article-2017823711031739797000.jpg" style="width:100%">        
+                <img class="mySlides w3-animate-bottom" src="https://i.pinimg.com/originals/35/15/4f/35154fbf8ad85d1901d3cc94e9feed81.jpg" style="width:100%">        
+                <img class="mySlides w3-animate-top" src="https://nubride.com/wp-content/uploads/2014/06/charlotte-indian-wedding-photographer-ballantyne-nc-020.jpg" style="width:100%">        
+            
+                <img class="mySlides w3-animate-bottom" src="https://i.pinimg.com/originals/0c/73/8b/0c738be3ce7b715f8b9aa1933df167aa.png" style="width:100%">        
+        
+            
+            </div>
+
+            <script>
+
+                var myIndex = 0;
+                carousel();
+
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    for(i=0; i<x.length; i++){
+                        x[i].style.display = "none";
+
+                    }
+                    myIndex++;
+                    if(myIndex>x.length) {myIndex=1}
+                    x[myIndex-1].style.display = "block";
+                    setTimeout(carousel, 2000);
+                }
+            </script>
+            <!--
+
+            <center>
+                <h2>Create your wedding invitation card in 10 mins by  following  the 3  steps</h2>
+                <div class="step1" >
+                    <h3>Step 1</h3>
+                    <p>Register Your Name by filling the Registration form</p>
+                </div>
+
+                <div class="step">
+                    <h3>Step 1</h3>
+                    <p>Register Your Name by filling the Registration form</p>
+                </div>
+
+                <div class="step3">
+                    <h3>Step 1</h3>
+                    <p>Register Your Name by filling the Registration form</p>
+                </div>
+
+            </center>   
+            -->
+
+</body>
+</html>
+

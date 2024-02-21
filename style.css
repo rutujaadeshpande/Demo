@@ -1,0 +1,78 @@
+body{
+    background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)),url(aa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.column1{
+    width: 50%;
+    background-color: rgba(211, 211, 211, 0.5);
+    padding: 30px;
+}
+
+.column2{
+    width: 50%;
+    float:flex;
+    background: #fff;
+    padding: 30px;
+}
+.login-box{
+    max-width: 700px;
+    float:none;
+    margin: 150px auto;
+}
+.form-control{
+    background-color: transparent !important;
+}
+.main{
+    font-size: 100px;
+    color:blue;
+    padding-top: 15px;
+}
+.hh{
+    font-size: 90px;
+    text-align: center;
+}
+div a{
+    color: rgb(15, 199, 15);
+    background-color: #fff;
+  
+}
+.message{
+    width:100%;
+    position:relative;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+.message .success{
+    font-size: 20px;
+    color: rgb(8, 163, 8);
+    position: absolute;
+    animation: button .3s linear;
+  
+}
+.message .danger{
+    font-size: 20px;
+    color: rgb(245, 7, 7);
+    position: absolute;
+    animation: button .3s linear;
+    transition: .3s;
+    
+}
+@keyframes button{
+    0%{
+        transform:scale(0.1);
+    }
+    50%{
+        transform:scale(0.5);
+    }
+    100%{
+        transform:scale(1);
+    }
+}
+  
+  
+
+
+
+
